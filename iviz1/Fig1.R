@@ -14,7 +14,7 @@ library(dplyr)
 library(DescTools)
 
 # Loading the database 
-data <- read.csv("../input/videogamesales/vgsales.csv", stringsAsFactors = FALSE)
+data <- read.csv("/vgsales.csv", stringsAsFactors = FALSE)
 
 # Removing the Rank column
 data$Rank <- NULL
