@@ -19,7 +19,7 @@ from scipy import stats
 
 
 import os
-for dirname, _, filenames in os.walk('/kaggle/input'):
+for dirname, _, filenames in os.walk('/vgsales.csv'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
 		
