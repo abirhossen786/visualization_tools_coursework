@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 %matplotlib inline
 
-data = pd.read_csv('../input/videogamesales/vgsales.csv')
+data = pd.read_csv('/vgsales.csv')
 
 data.isnull().sum() # To check Null Values
 
