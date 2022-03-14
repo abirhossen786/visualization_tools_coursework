@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Read in dataset
-DATAPATH = '../input/videogamesales/vgsales.csv'
+DATAPATH = '/vgsales.csv'
 dataset = pd.read_csv(DATAPATH)
 
 # Test dataset
